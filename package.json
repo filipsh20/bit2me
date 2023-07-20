@@ -1,0 +1,34 @@
+{
+  "name": "bit2me",
+  "version": "1.0.0",
+  "description": "Prueba tecnica de bit2me",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipsh20/bit2me.git#server"
+  },
+  "author": "Jaume",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipsh20/bit2me/issues"
+  },
+  "homepage": "https://github.com/filipsh20/bit2me/tree/server#readme",
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "node-cron": "^3.0.2",
+    "socket.io": "^4.7.1"
+  }
+}
